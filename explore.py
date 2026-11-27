@@ -39,3 +39,13 @@ print(df['per_unit'].mean())
 print("\n=== Exercise 6: Regions ===")
 print(df['region'].unique())
 print(df['region'].value_counts())
+
+# Exercise 7
+print("\n=== Exercise 7: Select columns ===")
+subset = df[['region', 'product', 'revenue']]
+print(subset.shape)
+
+# Exercise 8
+print("\n=== Exercise 8: Save ===")
+df.to_csv('data/explored.csv', index=False)
+print("Saved data/explored.csv")
