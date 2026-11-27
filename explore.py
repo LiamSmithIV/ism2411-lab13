@@ -11,3 +11,9 @@ print(df.head())
 print(df.shape)
 print(df.columns.tolist())
 print(df.dtypes)
+
+# Exercise 2
+print("\n=== Exercise 2: South region ===")
+south = df[df['region'] == 'South']
+print(len(south))
+print(south.head())
