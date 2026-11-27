@@ -17,3 +17,14 @@ print("\n=== Exercise 2: South region ===")
 south = df[df['region'] == 'South']
 print(len(south))
 print(south.head())
+
+# Exercise 3
+print("\n=== Exercise 3: Top 5 by revenue ===")
+top5 = df.sort_values('revenue', ascending=False).head(5)
+print(top5)
+
+# Exercise 4
+print("\n=== Exercise 4: South and revenue over 1000 ===")
+big_south = df[(df['region'] == 'South') & (df['revenue'] > 1000)]
+print(len(big_south))
+print(big_south.head())
