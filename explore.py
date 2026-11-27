@@ -28,3 +28,14 @@ print("\n=== Exercise 4: South and revenue over 1000 ===")
 big_south = df[(df['region'] == 'South') & (df['revenue'] > 1000)]
 print(len(big_south))
 print(big_south.head())
+
+# Exercise 5
+print("\n=== Exercise 5: Revenue per unit ===")
+df['per_unit'] = df['revenue'] / df['quantity']
+print(df.head())
+print(df['per_unit'].mean())
+
+# Exercise 6
+print("\n=== Exercise 6: Regions ===")
+print(df['region'].unique())
+print(df['region'].value_counts())
