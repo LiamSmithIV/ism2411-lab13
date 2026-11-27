@@ -3,13 +3,15 @@
 #
 # Self-Assessment 1:
 # A boolean filter checks a certain condition in each row and marks it as true or false. 
-# The df.[] will only keep the True rows. 
+# The df[...] will only keep the True rows. 
+# 
 # Self-Assessment 2:
 # Single brackets return a series, which is just a single column of values. 
 # Double brackets return a DataFrame, which is a table that includes a column. 
+# # Calculations like .mean() return one number on a Series, but a result per column on a DataFrame, so the type changes what you get back.
+# 
 # Self-Assessment 3:
-# Pandas allows for more complex data manipulation and analysis compared to Excel, especially when dealing with large datasets or requiring reproducible results.
-#
+# In short, the most compelling reason is repeatability. With Pandas, you can write scripts that can be reused and modified easily, while Excel often requires manual steps that are prone to error.
 
 import pandas as pd
 
