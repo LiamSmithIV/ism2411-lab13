@@ -1,5 +1,15 @@
-
-
+# ISM2411 Lab 13 — First DataFrame — Retail Sales Explorer
+# Name: Liam Smith
+#
+# Self-Assessment 1:
+# A boolean filter checks a certain condition in each row and marks it as true or false. 
+# The df.[] will only keep the True rows. 
+# Self-Assessment 2:
+# Single brackets return a series, which is just a single column of values. 
+# Double brackets return a DataFrame, which is a table that includes a column. 
+# Self-Assessment 3:
+# Pandas allows for more complex data manipulation and analysis compared to Excel, especially when dealing with large datasets or requiring reproducible results.
+#
 
 import pandas as pd
 
